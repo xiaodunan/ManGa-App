@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rlTrackRoot"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/track_item_background_i"
+    >
+
+    <TextView
+        android:id="@+id/tvTrackTitle"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:singleLine="true"
+        android:text="title"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/tvTrackType"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:gravity="center|left"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="10dp"
+        android:paddingBottom="2dp"
+        android:singleLine="true"
+        android:text="Type"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:background="@mipmap/clock"
+        android:layout_toLeftOf="@+id/tvTrackTime"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="4dp"/>
+    <TextView
+        android:id="@+id/tvTrackTime"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:gravity="center|left"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:paddingBottom="2dp"
+        android:singleLine="true"
+        android:text="Time"
+        android:textSize="11sp"/>
+
+</RelativeLayout>

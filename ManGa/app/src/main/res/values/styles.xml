@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="nv_item_text_appearance">
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TransparentTheme" parent="AppTheme">
+    </style>
+
+    <style name="nv_head_text_style">
+        <item name="android:textColor">@color/nv_item_background</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="collapsingToolbarTitle_textAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="user_name_textAppearance">
+        <item name="android:textColor">@color/gray_i</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+
+    <style name="tabTextAppearance">
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="updaTextAppearance" parent="tabTextAppearance">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+
+</resources>

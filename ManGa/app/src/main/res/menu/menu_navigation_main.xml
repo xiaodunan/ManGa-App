@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:title="传送门"  android:id="@+id/menu_home" android:checkable="true" android:icon="@mipmap/home2"/>
+        <item android:title="下载" android:id="@+id/menu_download" android:checkable="true" android:icon="@mipmap/download_menu"/>
+        <item android:title="收藏" android:id="@+id/menu_favorite" android:checkable="true" android:icon="@mipmap/favorite"/>
+        <item android:title="足迹" android:id="@+id/menu_track" android:checkable="true" android:icon="@mipmap/track"/>
+        <item android:title="扫地" android:id="@+id/menu_clean" android:checkable="true" android:icon="@mipmap/seting"/>
+        <item android:title="关于" android:id="@+id/menu_about" android:checkable="true" android:icon="@mipmap/about"/>
+        <item android:title="退出" android:id="@+id/menu_exit" android:checkable="true" android:icon="@mipmap/exit"/>
+    </group>
+</menu>

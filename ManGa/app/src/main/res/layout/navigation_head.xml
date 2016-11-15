@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+
+
+    <TextView
+        android:id="@+id/tv_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/toolbar_background_gx" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Some Fun \n \t\t\t\t\t\t\t Some Manga"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="@style/nv_head_text_style"
+        />
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdvHead"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:placeholderImage="@mipmap/user_head_unlogin"
+        app:placeholderImageScaleType="fitCenter"
+        app:roundAsCircle="true"/>
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:text="未登录"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_below="@id/sdvHead"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

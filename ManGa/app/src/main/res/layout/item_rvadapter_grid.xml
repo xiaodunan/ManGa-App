@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvRoot"
+    app:cardBackgroundColor="@color/white"
+    android:layout_width="160dp"
+    android:layout_height="180dp"
+    android:layout_marginLeft="5dp"
+    app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+           >
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/list_item_thumbnai"
+                android:layout_width="match_parent"
+                android:scaleType="fitXY"
+                android:layout_height="110dp"
+                app:fadeDuration="300"
+                app:placeholderImage="@mipmap/placeholder"
+                app:placeholderImageScaleType="fitCenter"
+                app:failureImage="@mipmap/failure_image"
+                app:failureImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/progressbar"
+                app:progressBarImageScaleType="centerInside"
+                app:progressBarAutoRotateInterval="1000"
+                />
+
+
+            <TextView
+                android:id="@+id/list_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingTop="2dp"
+                android:paddingLeft="5dp"
+                android:gravity="left"
+                android:layout_below="@+id/list_item_thumbnai"
+                android:textColor="@color/gray"
+                android:text="大王请稍后~"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/list_item_time"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:gravity="center|left"
+                android:layout_marginLeft="5dp"
+                android:text="time"
+                android:textSize="10sp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"/>
+
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/list_item_watch_times"
+                android:background="@mipmap/see"
+                android:layout_alignParentBottom="true" />
+
+            <TextView
+                android:id="@+id/list_item_watch_times"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:textSize="10sp"
+                android:text="000"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
